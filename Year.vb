@@ -41,7 +41,7 @@ Public Class Year
         Next
 
         body.AppendLine()
-        body.AppendFormat(vbTab & "{0,2} record(s)", cnt)
+        body.AppendFormat(vbTab & "{0,2} record(s)", cnt) haha 
 
         With e.Graphics
             .DrawImage(My.Resources.FTR_bus, 300, 0, 200, 200)
